@@ -8,41 +8,38 @@ This project is designed for **academic / learning purposes** and demonstrates r
 
 ## 📁 Project Structure
 
-banking management system
+banking-management-system/
 │
-├── .idea/ # IntelliJ IDEA configuration files
+├── .idea/                         # IntelliJ IDEA configuration files
 │
-├── Libraries/ # External JAR files
-│ ├── mysql-connector-java.jar # MySQL JDBC driver
-│ ├── jcalendar-1.4.jar # Date picker library
+├── Libraries/                     # External JAR files
+│   ├── mysql-connector-java.jar   # MySQL JDBC driver
+│   └── jcalendar-1.4.jar          # Date picker library
 │
-├── out/ # Compiled output files
+├── out/                           # Compiled output files
 │
 ├── src/
-│ ├── banking.management/ # Main application package
-│ │ ├── BalanceEnquiry.java # Check account balance
-│ │ ├── Conn.java # Database connection class
-│ │ ├── Deposit.java # Deposit money
-│ │ ├── FastCash.java # Quick withdrawal feature
-│ │ ├── Login.java # User login screen
-│ │ ├── Main_Class.java # Main dashboard / ATM menu
-│ │ ├── Mini.java # Mini statement
-│ │ ├── Pin.java # Change PIN
-│ │ ├── Signup.java # Account signup (step 1)
-│ │ ├── Signup2.java # Account signup (step 2)
-│ │ ├── Signup3.java # Account signup (step 3)
-│ │ └── Withdrawl.java # Withdraw money
-│ │
-│ └── icon/ # UI icons and images
-│ ├── atm2.png
-│ ├── backbg.png
-│ └── bank.png
+│   └── banking/management/        # Main application package
+│       ├── BalanceEnquiry.java    # Check account balance
+│       ├── Conn.java              # Database connection class
+│       ├── Deposit.java           # Deposit money
+│       ├── FastCash.java          # Quick withdrawal feature
+│       ├── Login.java             # User login screen
+│       ├── Main_Class.java        # Main dashboard / ATM menu
+│       ├── Mini.java              # Mini statement
+│       ├── Pin.java               # Change PIN
+│       ├── Signup.java            # Account signup (Step 1)
+│       ├── Signup2.java           # Account signup (Step 2)
+│       ├── Signup3.java           # Account signup (Step 3)
+│       └── Withdrawl.java         # Withdraw money
+│
+├── icon/                          # UI icons and images
+│   ├── atm2.png
+│   ├── backbg.png
+│   └── bank.png
 │
 ├── .gitignore
 └── README.md
-
-yaml
-Copy code
 
 ---
 
