@@ -8,38 +8,40 @@ This project is designed for **academic / learning purposes** and demonstrates r
 
 ## 📁 Project Structure
 
-banking-management-system/
-│
-├── .idea/                         # IntelliJ IDEA configuration files
-│
-├── Libraries/                     # External JAR files
-│   ├── mysql-connector-java.jar   # MySQL JDBC driver
-│   └── jcalendar-1.4.jar          # Date picker library
-│
-├── out/                           # Compiled output files
-│
-├── src/
-│   └── banking/management/        # Main application package
-│       ├── BalanceEnquiry.java    # Check account balance
-│       ├── Conn.java              # Database connection class
-│       ├── Deposit.java           # Deposit money
-│       ├── FastCash.java          # Quick withdrawal feature
-│       ├── Login.java             # User login screen
-│       ├── Main_Class.java        # Main dashboard / ATM menu
-│       ├── Mini.java              # Mini statement
-│       ├── Pin.java               # Change PIN
-│       ├── Signup.java            # Account signup (Step 1)
-│       ├── Signup2.java           # Account signup (Step 2)
-│       ├── Signup3.java           # Account signup (Step 3)
-│       └── Withdrawl.java         # Withdraw money
-│
-├── icon/                          # UI icons and images
-│   ├── atm2.png
-│   ├── backbg.png
-│   └── bank.png
-│
-├── .gitignore
-└── README.md
+project_structure:
+  banking-management-system:
+    .idea: "IntelliJ IDEA configuration files"
+
+    Libraries:
+      mysql-connector-java.jar: "MySQL JDBC driver"
+      jcalendar-1.4.jar: "Date picker library"
+
+    out: "Compiled output files"
+
+    src:
+      banking:
+        management:
+          BalanceEnquiry.java: "Check account balance"
+          Conn.java: "Database connection class"
+          Deposit.java: "Deposit money"
+          FastCash.java: "Quick withdrawal feature"
+          Login.java: "User login screen"
+          Main_Class.java: "Main dashboard / ATM menu"
+          Mini.java: "Mini statement"
+          Pin.java: "Change PIN"
+          Signup.java: "Account signup (Step 1)"
+          Signup2.java: "Account signup (Step 2)"
+          Signup3.java: "Account signup (Step 3)"
+          Withdrawl.java: "Withdraw money"
+
+    icon:
+      atm2.png: "ATM UI image"
+      backbg.png: "Background image"
+      bank.png: "Bank logo"
+
+    .gitignore: "Git ignored files"
+    README.md: "Project documentation"
+
 
 
 ---
