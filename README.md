@@ -138,14 +138,3 @@ ATM Simulation System
 Sujal Gupta and Mohd Taqi
 Java Banking Management System Project
 
-markdown
-Copy code
-
----
-
-If you want, next I can:
-- ✅ Write **database table SQL**
-- ✅ Add **project abstract & objectives**
-- ✅ Prepare **viva questions & answers**
-- ✅ Explain **each class one by one**
-- ✅ Make it **GitHub professional**
